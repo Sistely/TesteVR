@@ -1,0 +1,6 @@
+---
+default: -p html -p bdd -p json
+html: --format html --out=Log\features.html
+dot: --format progress
+bdd: --format pretty
+json: --format message -o "report.json"
